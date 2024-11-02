@@ -1,14 +1,13 @@
 import './App.css'
-import CardWidget from './components/CardWidget'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import NavBarComponent from './components/NavBarComponent'
-import ItemListContainer from './components/ItemListContainer '
+import ItemListContainer from './components/ItemListContainer'
 
 function App() {
-
   return (
    <div>
       <NavBarComponent/>
-      <ItemListContainer greetings='Hola, Bienvenidos'/>
+      <ItemListContainer greetings='Bienvenida a Tramontana'/>
    </div>
   )
 }

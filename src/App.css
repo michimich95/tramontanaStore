@@ -1,21 +1,16 @@
-.navContainer {
-  width: 100%;
-  padding: 2rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: black;
+.custom-navbar {
+  background-color: white;
 }
 
-.aLink {
-  color:white;
-  text-decoration: none;
-  font-weight: 500;
+.custom-nav-links .nav-link {
+  color: #CB5143;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.cardIcon {
-  width: 5 rem;
-
+.custom-nav-links .nav-link:hover {
+  color: #9B291C;
 }
 
 .cardWidgetContainer {
@@ -24,8 +19,33 @@
   align-items: center;
 }
 
-.cardCounter {
-  color: red;
-  font-size: 1 rem;
-  font-weight: 500;
+.badge {
+  font-size: 0.75rem; /* Cambia el tamaño del texto del contador */
+  padding: 0.5em 0.6em; /* Ajusta el tamaño del badge */
+}
+
+.logo {
+  width: 10rem;
+  height: auto;
+}
+
+.welcome-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  background-image: url('/WS50L-Startpage-wk44-16x9.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+}
+
+.welcome-text {
+  color:  #CB5143;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
